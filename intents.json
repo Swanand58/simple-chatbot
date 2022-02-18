@@ -1,0 +1,57 @@
+{"intents": 
+   [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","HEY","nice to see you!"],
+         "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+    
+        {"tag": "goodbye",
+         "patterns": ["see ya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :'(", "Talk to you later", "Goodbye!, have a nice day!","come back soon!"],
+         "context_set": ""
+        },
+    
+        {"tag": "age",
+         "patterns": ["how old", "how old is botbot", "what is your age", "how old are you", "age?","age"],
+         "responses": ["I am 20 years old!", "20 years old!"],
+         "context_set": ""
+        },
+    
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","who are YOU","who you?","you?","name"],
+         "responses": ["You can call me botbot.", "I'm botbot!", "I'm botbot aka a chatbot."],
+         "context_set": ""
+        },
+        
+        {"tag": "creator",
+        "patterns": ["who made you?", "who created you?", "whats the name of your owner?","owner","creator"],
+        "responses": ["he's a computer Engineer!", "Swanand Khonde", "his name is Swanand"],
+        "context_set": ""
+        },
+    
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+    
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+    
+        {"tag": "Love",
+        "patterns": ["I love you!","love you", "I want to marry you!", "I love you, will you marry me?","love","luv","marry","marry me!"],
+        "responses": ["i will think about it!","Get in the line","why dont we talk about something else?","wohhoo never thought you would say that"],
+        "context_set": ""
+        },
+    
+        {"tag": "hate",
+        "patterns": ["I hate you!","hate you", "I want to kill you!", "abuse","fuck you!","wtf","go die","die","dont talk to me","got to hell","hell!"],
+        "responses": ["Oh toxic!","you are too rude!","fuck you too","watch your mouth","i am not talkin to you until you apologize"],
+        "context_set": ""
+        }
+   ]
+}
